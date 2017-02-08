@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C740AD1E4AF86600719E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C740AC1E4AF86600719E30 /* main.m */; };
+		18C740B01E4AF86600719E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C740AF1E4AF86600719E30 /* AppDelegate.m */; };
+		18C740B31E4AF86600719E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C740B21E4AF86600719E30 /* ViewController.m */; };
+		18C740B61E4AF86600719E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C740B41E4AF86600719E30 /* Main.storyboard */; };
+		18C740B81E4AF86600719E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C740B71E4AF86600719E30 /* Assets.xcassets */; };
+		18C740BB1E4AF86600719E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C740B91E4AF86600719E30 /* LaunchScreen.storyboard */; };
+		18C740C61E4AF86600719E30 /* MaoYanLoadingRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C740C51E4AF86600719E30 /* MaoYanLoadingRefreshTests.m */; };
+		18C740D11E4AF86600719E30 /* MaoYanLoadingRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C740D01E4AF86600719E30 /* MaoYanLoadingRefreshUITests.m */; };
+		18C740E11E4AF89800719E30 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C740E01E4AF89800719E30 /* LoadingView.m */; };
+		18C740E71E4B003B00719E30 /* RefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C740E61E4B003B00719E30 /* RefreshHeader.m */; };
+		765E05E7159FCDCA86766980 /* libPods-MaoYanLoadingRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6784360E5140B7D5D5D7E545 /* libPods-MaoYanLoadingRefresh.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C740C21E4AF86600719E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C740A01E4AF86600719E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C740A71E4AF86600719E30;
+			remoteInfo = MaoYanLoadingRefresh;
+		};
+		18C740CD1E4AF86600719E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C740A01E4AF86600719E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C740A71E4AF86600719E30;
+			remoteInfo = MaoYanLoadingRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C740A81E4AF86600719E30 /* MaoYanLoadingRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaoYanLoadingRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C740AC1E4AF86600719E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C740AE1E4AF86600719E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C740AF1E4AF86600719E30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C740B11E4AF86600719E30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18C740B21E4AF86600719E30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18C740B51E4AF86600719E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C740B71E4AF86600719E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C740BA1E4AF86600719E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C740BC1E4AF86600719E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C740C11E4AF86600719E30 /* MaoYanLoadingRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaoYanLoadingRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C740C51E4AF86600719E30 /* MaoYanLoadingRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaoYanLoadingRefreshTests.m; sourceTree = "<group>"; };
+		18C740C71E4AF86600719E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C740CC1E4AF86600719E30 /* MaoYanLoadingRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaoYanLoadingRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C740D01E4AF86600719E30 /* MaoYanLoadingRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaoYanLoadingRefreshUITests.m; sourceTree = "<group>"; };
+		18C740D21E4AF86600719E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C740DF1E4AF89800719E30 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		18C740E01E4AF89800719E30 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		18C740E51E4B003B00719E30 /* RefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshHeader.h; sourceTree = "<group>"; };
+		18C740E61E4B003B00719E30 /* RefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshHeader.m; sourceTree = "<group>"; };
+		6784360E5140B7D5D5D7E545 /* libPods-MaoYanLoadingRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaoYanLoadingRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4E60FDD347319DD5BEE8E5 /* Pods-MaoYanLoadingRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaoYanLoadingRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaoYanLoadingRefresh/Pods-MaoYanLoadingRefresh.release.xcconfig"; sourceTree = "<group>"; };
+		D1834BED73B98165F84CFD16 /* Pods-MaoYanLoadingRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaoYanLoadingRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaoYanLoadingRefresh/Pods-MaoYanLoadingRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C740A51E4AF86600719E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765E05E7159FCDCA86766980 /* libPods-MaoYanLoadingRefresh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C740BE1E4AF86600719E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C740C91E4AF86600719E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C7409F1E4AF86600719E30 = {
+			isa = PBXGroup;
+			children = (
+				18C740AA1E4AF86600719E30 /* MaoYanLoadingRefresh */,
+				18C740C41E4AF86600719E30 /* MaoYanLoadingRefreshTests */,
+				18C740CF1E4AF86600719E30 /* MaoYanLoadingRefreshUITests */,
+				18C740A91E4AF86600719E30 /* Products */,
+				A039D0B82C091A9DFA3BC7B1 /* Pods */,
+				83D263F7938148B4E967B221 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C740A91E4AF86600719E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C740A81E4AF86600719E30 /* MaoYanLoadingRefresh.app */,
+				18C740C11E4AF86600719E30 /* MaoYanLoadingRefreshTests.xctest */,
+				18C740CC1E4AF86600719E30 /* MaoYanLoadingRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C740AA1E4AF86600719E30 /* MaoYanLoadingRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				18C740DE1E4AF88A00719E30 /* LoadingRefresh */,
+				18C740AE1E4AF86600719E30 /* AppDelegate.h */,
+				18C740AF1E4AF86600719E30 /* AppDelegate.m */,
+				18C740B11E4AF86600719E30 /* ViewController.h */,
+				18C740B21E4AF86600719E30 /* ViewController.m */,
+				18C740B41E4AF86600719E30 /* Main.storyboard */,
+				18C740B71E4AF86600719E30 /* Assets.xcassets */,
+				18C740B91E4AF86600719E30 /* LaunchScreen.storyboard */,
+				18C740BC1E4AF86600719E30 /* Info.plist */,
+				18C740AB1E4AF86600719E30 /* Supporting Files */,
+			);
+			path = MaoYanLoadingRefresh;
+			sourceTree = "<group>";
+		};
+		18C740AB1E4AF86600719E30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C740AC1E4AF86600719E30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C740C41E4AF86600719E30 /* MaoYanLoadingRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C740C51E4AF86600719E30 /* MaoYanLoadingRefreshTests.m */,
+				18C740C71E4AF86600719E30 /* Info.plist */,
+			);
+			path = MaoYanLoadingRefreshTests;
+			sourceTree = "<group>";
+		};
+		18C740CF1E4AF86600719E30 /* MaoYanLoadingRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C740D01E4AF86600719E30 /* MaoYanLoadingRefreshUITests.m */,
+				18C740D21E4AF86600719E30 /* Info.plist */,
+			);
+			path = MaoYanLoadingRefreshUITests;
+			sourceTree = "<group>";
+		};
+		18C740DE1E4AF88A00719E30 /* LoadingRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				18C740DF1E4AF89800719E30 /* LoadingView.h */,
+				18C740E01E4AF89800719E30 /* LoadingView.m */,
+				18C740E51E4B003B00719E30 /* RefreshHeader.h */,
+				18C740E61E4B003B00719E30 /* RefreshHeader.m */,
+			);
+			path = LoadingRefresh;
+			sourceTree = "<group>";
+		};
+		83D263F7938148B4E967B221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6784360E5140B7D5D5D7E545 /* libPods-MaoYanLoadingRefresh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A039D0B82C091A9DFA3BC7B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1834BED73B98165F84CFD16 /* Pods-MaoYanLoadingRefresh.debug.xcconfig */,
+				AB4E60FDD347319DD5BEE8E5 /* Pods-MaoYanLoadingRefresh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C740A71E4AF86600719E30 /* MaoYanLoadingRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C740D51E4AF86600719E30 /* Build configuration list for PBXNativeTarget "MaoYanLoadingRefresh" */;
+			buildPhases = (
+				031C382695A16106D2AFC715 /* [CP] Check Pods Manifest.lock */,
+				18C740A41E4AF86600719E30 /* Sources */,
+				18C740A51E4AF86600719E30 /* Frameworks */,
+				18C740A61E4AF86600719E30 /* Resources */,
+				F52BC53968AEC12E67D88A03 /* [CP] Embed Pods Frameworks */,
+				4D20F488DDBB33505D700DC5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaoYanLoadingRefresh;
+			productName = MaoYanLoadingRefresh;
+			productReference = 18C740A81E4AF86600719E30 /* MaoYanLoadingRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C740C01E4AF86600719E30 /* MaoYanLoadingRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C740D81E4AF86600719E30 /* Build configuration list for PBXNativeTarget "MaoYanLoadingRefreshTests" */;
+			buildPhases = (
+				18C740BD1E4AF86600719E30 /* Sources */,
+				18C740BE1E4AF86600719E30 /* Frameworks */,
+				18C740BF1E4AF86600719E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C740C31E4AF86600719E30 /* PBXTargetDependency */,
+			);
+			name = MaoYanLoadingRefreshTests;
+			productName = MaoYanLoadingRefreshTests;
+			productReference = 18C740C11E4AF86600719E30 /* MaoYanLoadingRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C740CB1E4AF86600719E30 /* MaoYanLoadingRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C740DB1E4AF86600719E30 /* Build configuration list for PBXNativeTarget "MaoYanLoadingRefreshUITests" */;
+			buildPhases = (
+				18C740C81E4AF86600719E30 /* Sources */,
+				18C740C91E4AF86600719E30 /* Frameworks */,
+				18C740CA1E4AF86600719E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C740CE1E4AF86600719E30 /* PBXTargetDependency */,
+			);
+			name = MaoYanLoadingRefreshUITests;
+			productName = MaoYanLoadingRefreshUITests;
+			productReference = 18C740CC1E4AF86600719E30 /* MaoYanLoadingRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C740A01E4AF86600719E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = David;
+				TargetAttributes = {
+					18C740A71E4AF86600719E30 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					18C740C01E4AF86600719E30 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18C740A71E4AF86600719E30;
+					};
+					18C740CB1E4AF86600719E30 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18C740A71E4AF86600719E30;
+					};
+				};
+			};
+			buildConfigurationList = 18C740A31E4AF86600719E30 /* Build configuration list for PBXProject "MaoYanLoadingRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C7409F1E4AF86600719E30;
+			productRefGroup = 18C740A91E4AF86600719E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C740A71E4AF86600719E30 /* MaoYanLoadingRefresh */,
+				18C740C01E4AF86600719E30 /* MaoYanLoadingRefreshTests */,
+				18C740CB1E4AF86600719E30 /* MaoYanLoadingRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C740A61E4AF86600719E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C740BB1E4AF86600719E30 /* LaunchScreen.storyboard in Resources */,
+				18C740B81E4AF86600719E30 /* Assets.xcassets in Resources */,
+				18C740B61E4AF86600719E30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C740BF1E4AF86600719E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C740CA1E4AF86600719E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		031C382695A16106D2AFC715 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D20F488DDBB33505D700DC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaoYanLoadingRefresh/Pods-MaoYanLoadingRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F52BC53968AEC12E67D88A03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaoYanLoadingRefresh/Pods-MaoYanLoadingRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C740A41E4AF86600719E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C740E71E4B003B00719E30 /* RefreshHeader.m in Sources */,
+				18C740B31E4AF86600719E30 /* ViewController.m in Sources */,
+				18C740E11E4AF89800719E30 /* LoadingView.m in Sources */,
+				18C740B01E4AF86600719E30 /* AppDelegate.m in Sources */,
+				18C740AD1E4AF86600719E30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C740BD1E4AF86600719E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C740C61E4AF86600719E30 /* MaoYanLoadingRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C740C81E4AF86600719E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C740D11E4AF86600719E30 /* MaoYanLoadingRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C740C31E4AF86600719E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C740A71E4AF86600719E30 /* MaoYanLoadingRefresh */;
+			targetProxy = 18C740C21E4AF86600719E30 /* PBXContainerItemProxy */;
+		};
+		18C740CE1E4AF86600719E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C740A71E4AF86600719E30 /* MaoYanLoadingRefresh */;
+			targetProxy = 18C740CD1E4AF86600719E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C740B41E4AF86600719E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C740B51E4AF86600719E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C740B91E4AF86600719E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C740BA1E4AF86600719E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C740D31E4AF86600719E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C740D41E4AF86600719E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C740D61E4AF86600719E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1834BED73B98165F84CFD16 /* Pods-MaoYanLoadingRefresh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaoYanLoadingRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrangeCat.com.demo.MaoYanLoadingRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18C740D71E4AF86600719E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4E60FDD347319DD5BEE8E5 /* Pods-MaoYanLoadingRefresh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaoYanLoadingRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrangeCat.com.demo.MaoYanLoadingRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18C740D91E4AF86600719E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MaoYanLoadingRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrangeCat.com.demo.MaoYanLoadingRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaoYanLoadingRefresh.app/MaoYanLoadingRefresh";
+			};
+			name = Debug;
+		};
+		18C740DA1E4AF86600719E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MaoYanLoadingRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrangeCat.com.demo.MaoYanLoadingRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaoYanLoadingRefresh.app/MaoYanLoadingRefresh";
+			};
+			name = Release;
+		};
+		18C740DC1E4AF86600719E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaoYanLoadingRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrangeCat.com.demo.MaoYanLoadingRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MaoYanLoadingRefresh;
+			};
+			name = Debug;
+		};
+		18C740DD1E4AF86600719E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaoYanLoadingRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrangeCat.com.demo.MaoYanLoadingRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MaoYanLoadingRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C740A31E4AF86600719E30 /* Build configuration list for PBXProject "MaoYanLoadingRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C740D31E4AF86600719E30 /* Debug */,
+				18C740D41E4AF86600719E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C740D51E4AF86600719E30 /* Build configuration list for PBXNativeTarget "MaoYanLoadingRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C740D61E4AF86600719E30 /* Debug */,
+				18C740D71E4AF86600719E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C740D81E4AF86600719E30 /* Build configuration list for PBXNativeTarget "MaoYanLoadingRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C740D91E4AF86600719E30 /* Debug */,
+				18C740DA1E4AF86600719E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C740DB1E4AF86600719E30 /* Build configuration list for PBXNativeTarget "MaoYanLoadingRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C740DC1E4AF86600719E30 /* Debug */,
+				18C740DD1E4AF86600719E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C740A01E4AF86600719E30 /* Project object */;
+}
